@@ -7,7 +7,7 @@ fn main() {
     list.push("gunnu bhaiya");
     list.push("didi");
     list.push("piyush");
-
+    
     println!("element at 1st index is {:?}", list.get(1));
 
     let s = list.size();

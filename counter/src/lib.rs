@@ -24,7 +24,6 @@ impl Display for Counter {
         write!(f, "{}", self.count)
     }
 }
-
 entrypoint!(counter_contract);
 
 pub fn counter_contract(
